@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Register</title>
+  <link rel="stylesheet" href="style.css" />
+  <script type="module" src="firebaseauth.js"></script> <!-- Updated script -->
+</head>
+<body>
+  <div class="form-wrapper">
+    <form class="auth-form">
+      <div id="signupmessage" class="messageDiv" style="display: none;"></div>
+      <h2>Register</h2>
+      <div id="signUpMessage" class="messageDiv" style="display:none;"></div> <!-- Message div -->
+      <!-- <input type="text" id="Username" placeholder="Username" required /> -->
+      <input type="email" id="Email" placeholder="email" required />
+      <input type="password" id="Password" placeholder="password" required />
+      <button type="submit" id="submit">Register</button>
+      <p>
+        <a href="login.html">Already have an account?</a>
+      </p>
+    </form>
+  </div>
+</body>
+</html>
